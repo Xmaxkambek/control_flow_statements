@@ -12,7 +12,6 @@
 
 bool func(int a) {
   int b = a;
-
   int a1 = a % 10;
 
   a = a ~/ 10;
@@ -28,5 +27,5 @@ bool func(int a) {
 }
 
 void main() {
-  print(func(21));
+  print(func(28));
 }
